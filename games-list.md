@@ -40,7 +40,7 @@
 ![illu this war of mine](https://geeko.lesoir.be/wp-content/uploads/sites/58/2018/12/This-War-of-Mine.jpg)
 * [Trailer](https://www.youtube.com/watch?v=BALBUyoTxQM)
 * ***Tags** : gestion, survival*
-* **11 bits studios**
+* **11 bit studios**
 * In This War of Mine for the first time you do not play as an elite soldier, but a group of civilians trying to survive in a besieged city; struggling with lack of necessities and constant danger. (*src: [This War of Mine](https://www.thiswarofmine.com/#description)*)
 
 
@@ -49,7 +49,7 @@
 ![illu batman ak](https://upload.wikimedia.org/wikipedia/fr/e/e4/Batman_Arkham_Knight_Logo.jpg)
 * [Trailer](https://www.youtube.com/watch?v=bLv8xko2teg)
 * ***Tags** : action, adventure*
-* **Rocksteady Studios ; Warner Bros. Interactive Entertaiment**
+* **Rocksteady Studios ; Warner Bros. Interactive Entertainment**
 * Batman™: Arkham Knight brings the award-winning Arkham trilogy from Rocksteady Studios to its epic conclusion. Developed exclusively for New-Gen platforms, Batman: Arkham Knight introduces Rocksteady's uniquely designed version of the Batmobile. The highly anticipated addition of this legendary vehicle, combined with the acclaimed gameplay of the Arkham series, offers gamers the ultimate and complete Batman experience as they tear through the streets and soar across the skyline of the entirety of Gotham City. In this explosive finale, Batman faces the ultimate threat against the city that he is sworn to protect, as Scarecrow returns to unite the super criminals of Gotham and destroy the Batman forever. (*src: [Warner Bros - Batman: Arkham Knight](https://www.warnerbros.com/games-and-apps/batman-arkham-knight)*)
 
 
@@ -59,7 +59,7 @@
 * [Trailer](https://www.youtube.com/watch?v=pSat_gLDXPc)
 * ***Tags** : simulation, strategy*
 * **Ndemic Creations**
-* Your pathogen has just infected 'Patient Zero'. Now you must bring about the end of human history by evolving a deadly, global Plague whilst adapting against everything humanity can do to defend itself. Plague Inc: Evolved is a unique mix of high strategy and terrifyingly realistic simulation which is now available on PC, Mac and Linux via Steam. Over 130 million players have been infected by Plague Inc. already. Now, Plague Inc: Evolved combines the original critically acclaimed gameplay with significant, all-new features for PC, including multiplayer, user-generated content support, improved graphics and lots more. Get ready to take strategy gaming to the next level! (*src: [Ndemic Creations - Plague Inc.](https://www.ndemiccreations.com/en/25-plague-inc-evolved)*)
+* Your pathogen has just infected 'Patient Zero'. Now you must bring about the end of human history by evolving a deadly, global Plague whilst adapting against everything humanity can do to defend itself. Plague Inc: Evolved is a unique mix of high strategy and terrifyingly realistic simulation which is now available on PC, Mac and Linux via Steam. Over 130 million players have been infected by Plague Inc. already. Now, Plague Inc: Evolved combines the original critically acclaimed gameplay with significant, all-new features for PC, including multiplayer, user-generated content support, improved graphics and lots more. Get ready to take strategy gaming to the next level! (*src: [Ndemic Creations - Plague Inc.: Evolved](https://www.ndemiccreations.com/en/25-plague-inc-evolved)*)
 
 
 ## Cat Quest
@@ -67,7 +67,7 @@
 ![illu cat quest](https://cdn03.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_CatQuest_image1280w.jpg)
 * [Trailer](https://www.youtube.com/watch?v=asDUOd5IZH0)
 * ***Tags** : action, rpg*
-* **The Gentlebros**
+* **The Gentlebros ; PQube Limited**
 * Cat Quest is a 2d Open World RPG by The Gentlebros. Set in the fantastic and wonderful world of cats, play as a catventurer as you explore a massive continent crafted in the unique style of tapestry! Relive the good old days of exploring an overworld map as you raid dungeons for epic loot, complete quests and meet the many furry denizens of this world! Also check out the sequel! (*src: [The Gentlebros - Cat Quest](https://www.thegentlebros.com/catquest/)*)
 
 

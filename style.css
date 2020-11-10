@@ -1,3 +1,19 @@
+section p, section a{
+    font-size: 14px;
+}
+
+.trailer {
+    border-top: 1px solid lightgrey;
+}
+
 .icon-youtube{
     color: #ff0000;
+}
+
+@media screen and (min-width:1024px){
+    .size-card-screen{
+        height: 200px;
+        overflow: auto;
+        padding-right: 10px;
+    }
 }
