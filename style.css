@@ -1,8 +1,18 @@
+body{
+    background-image: url(./imgs/Subtle-Grey-Tileable-Pattern-For-Website-Background.jpg);
+    background-repeat: repeat;
+}
+
+.card-vcenter{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 section p, section a{
     font-size: 14px;
 }
 
-.trailer {
+.trailer{
     border-top: 1px solid lightgrey;
 }
 
