@@ -296,7 +296,7 @@ for (let element of collection){
     newTrailer.className = 'button is-small is-ghost mt-3';
     newTrailer.href = element.trailer;
 
-    const newIcon = document.createElement('span');
+    const newIcon = document.createElement('i');
     newIcon.className = 'fab fa-youtube fa-2x icon-youtube mr-1';
 
     const newTxtTrailer = document.createElement('span');
