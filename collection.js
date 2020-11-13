@@ -1,73 +1,73 @@
-/*tags array*/
+/* Tags array */
 const category = [
     {//Tag Investigation 0
         name: 'Investigation',
-        style: 'has-text-weight-bold tag is-warning',
+        style: 'has-text-weight-bold tag is-warning mr-1',
     },
 
     {//Tag Stealth 1
         name: 'Stealth',
-        style: 'has-text-weight-bold tag is-dark',
+        style: 'has-text-weight-bold tag is-dark mr-1',
     },
 
     {//Tag Puzzle 2
         name: 'Puzzle',
-        style: 'has-text-weight-bold tag is-info',
+        style: 'has-text-weight-bold tag is-info mr-1',
     },
 
     {//Tag Philosophy 3
         name: 'Philosophy',
-        style: 'has-text-weight-bold tag is-light',
+        style: 'has-text-weight-bold tag is-light mr-1',
     },
 
     {//Tag Management 4
         name: 'Management',
-        style: 'has-text-weight-bold tag is-link',
+        style: 'has-text-weight-bold tag is-link mr-1',
     },
 
     {//Tag Survival 5
         name: 'Survival',
-        style: 'has-text-weight-bold tag is-danger',
+        style: 'has-text-weight-bold tag is-danger mr-1',
     },
 
     {//Tag Action 6
         name: 'Action',
-        style: 'has-text-weight-bold tag is-danger is-light',
+        style: 'has-text-weight-bold tag is-danger is-light mr-1',
     },
 
     {//Tag Adventure 7
         name: 'Adventure',
-        style: 'has-text-weight-bold tag is-success',
+        style: 'has-text-weight-bold tag is-success mr-1',
     },
 
     {//Tag Simulation 8
         name: 'Simulation',
-        style: 'has-text-weight-bold tag is-info is-light',
+        style: 'has-text-weight-bold tag is-info is-light mr-1',
     },
 
     {//Tag Strategy 9
         name: 'Strategy',
-        style: 'has-text-weight-bold tag is-warning is-light',
+        style: 'has-text-weight-bold tag is-warning is-light mr-1',
     },
 
     {//Tag RPG 10
         name: 'RPG',
-        style: 'has-text-weight-bold tag is-primary is-light',
+        style: 'has-text-weight-bold tag is-primary is-light mr-1',
     },
 
     {//Tag Exploration 11
         name: 'Exploration',
-        style: 'has-text-weight-bold tag is-primary',
+        style: 'has-text-weight-bold tag is-primary mr-1',
     },
 
     {//Tag Storytelling 12
         name: 'Storytelling',
-        style: 'has-text-weight-bold tag is-white',
+        style: 'has-text-weight-bold tag is-white mr-1',
     },
 
     {//Tag Horror 13
         name: 'Horror',
-        style: 'has-text-weight-bold tag is-black',
+        style: 'has-text-weight-bold tag is-black mr-1',
     },
 ];
 
@@ -209,12 +209,13 @@ const collection = [
 const mainContainer = document.querySelector('.is-flex-wrap-wrap.columns.is-centered.is-desktop.m-0');
 mainContainer.innerHTML = '';
 
+// search in collection array
 for (let element of collection){
     //card
     const newSection = document.createElement('section');
     newSection.className = 'card column is-one-fifth-desktop m-2';
 
-    //image
+    //images
     const newDivImg = document.createElement('div');
     newDivImg.className = 'card-image mb-1';
 
@@ -227,27 +228,49 @@ for (let element of collection){
     //list tags
     const newList = document.createElement('ul');
 
-    for (let elemTag of element.category){
-        const newTag = document.createElement('li');
-        newTag.className = elemTag.style;
-        newTag.textContent = elemTag.name;
+        // search in category array
+        for (let elemTag of element.category){
+            const newTag = document.createElement('li');
+            newTag.className = elemTag.style;
+            newTag.textContent = elemTag.name;
 
-        newList.appendChild(newTag);
-    }
+            newList.appendChild(newTag);
+        }
+
+    // title + year
+    const newDivTitle = document.createElement('div');
+    newDivTitle.className = 'mb-3';
+
+    const newTitle = document.createElement('h2');
+    newTitle.className = 'card-header-title is-centered title is-5 m-0 pb-1';
+    newTitle.textContent = element.title;
+
+    const newPTime = document.createElement('p');
+    newPTime.className = 'has-text-right';
+
+    const newTime = document.createElement('time');
+    newTime.datetime = element.year;
+    newTime.textContent = element.year;
 
     //developer & publisher
-    const newDevPub = document.createElement('p');
-    newDevPub.className = 'mb-4';
+    const newDev = document.createElement('p');
 
     const newSpanDev = document.createElement('span');
     newSpanDev.className = 'has-text-weight-semibold';
     newSpanDev.textContent = ('Developer: ');
+
+    const newSpanNameDev = document.createElement('span');
+    newSpanNameDev.textContent = element.developer;
+
+    const newPub = document.createElement('p');
+    newPub.className = 'mb-4';
     
     const newSpanPub = document.createElement('span');
     newSpanPub.className = 'has-text-weight-semibold';
     newSpanPub.textContent = ('Publisher: ');
 
-    newDevPub.textContent = (newSpanDev + element.developer + ' ; ' + newSpanPub + element.publisher);
+    const newSpanNamePub = document.createElement('span');
+    newSpanNamePub.textContent = element.publisher;
 
     //div overflow description + description
     const newDivDescription = document.createElement('div');
@@ -269,14 +292,15 @@ for (let element of collection){
     const newDivTrailer = document.createElement('div');
     newDivTrailer.className = 'trailer';
 
-    const newIcon = document.createElement('span');
-    newIcon.className = 'fab fa-youtube fa-2x icon-youtube mr-1';
-
     const newTrailer = document.createElement('a');
     newTrailer.className = 'button is-small is-ghost mt-3';
     newTrailer.href = element.trailer;
-    newTrailer.textContent = ('Trailer');
 
+    const newIcon = document.createElement('span');
+    newIcon.className = 'fab fa-youtube fa-2x icon-youtube mr-1';
+
+    const newTxtTrailer = document.createElement('span');
+    newTxtTrailer.textContent = ('Trailer');
 
     //arborescence
         //card
@@ -287,10 +311,18 @@ for (let element of collection){
         newFig.appendChild(newImg);
         //list tags
         newSection.appendChild(newList);
+        //title + year
+        newSection.appendChild(newDivTitle);
+        newDivTitle.appendChild(newTitle);
+        newDivTitle.appendChild(newPTime);
+        newPTime.appendChild(newTime);
         //developer & publisher
-        newSection.appendChild(newDevPub);
-        newDevPub.appendChild(newSpanDev);
-        newDevPub.appendChild(newSpanPub);
+        newSection.appendChild(newDev);
+        newDev.appendChild(newSpanDev);
+        newDev.appendChild(newSpanNameDev);
+        newSection.appendChild(newPub);
+        newPub.appendChild(newSpanPub);
+        newPub.appendChild(newSpanNamePub);
         //div overflow description + description
         newSection.appendChild(newDivDescription);
         newDivDescription.appendChild(newDescription);
@@ -301,4 +333,5 @@ for (let element of collection){
         newSection.appendChild(newDivTrailer);
         newDivTrailer.appendChild(newTrailer);
         newTrailer.appendChild(newIcon);
+        newTrailer.appendChild(newTxtTrailer);
 }
