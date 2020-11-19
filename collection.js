@@ -335,3 +335,42 @@ for (let element of collection){
         newTrailer.appendChild(newIcon);
         newTrailer.appendChild(newTxtTrailer);
 }
+
+/* Search card */
+function filterCards(pattern){
+	const results = [];
+  
+  for(let game of collection){
+  	if(game.title.match(pattern) || game.year.match(pattern))
+    	results.push(game)
+  }
+  
+  const resultsMain = document.querySelector('#results')
+  resultsMain.innerHTML = '';
+  
+  for(let game of results){
+    
+  	const card = document.createElement('section');
+    card.className = 'card column is-one-fifth-desktop m-2';
+    
+    const title = document.createElement('h2');
+    title.className = 'card-header-title is-centered title is-5 m-0 pb-1';
+    title.textContent = game.title;
+    
+    // const author = document.createElement('h3')
+    // author.textContent = serie.author
+    
+    // const description = document.createElement('p')
+    // description.textContent = serie.description
+    
+    card.appendChild(title)
+    
+    resultsMain.appendChild(card)
+    
+  }
+}
+
+// document.querySelector('#filter_input')
+// .addEventListener('change', input => {
+// 	filterCards(input.target.value)
+// })
