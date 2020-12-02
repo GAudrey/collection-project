@@ -74,7 +74,7 @@ const category = [
 /* Collection array */
 const collection = [
     {//Part Murdered: Soul Suspect
-        img: './imgs/illu-murdered-soul-suspect.jpg',
+        img: './assets/imgs/illu-murdered-soul-suspect.jpg',
         title: 'Murdered: Soul Suspect',
         year: '2014',
         category: [category[0], category[1]],
@@ -87,7 +87,7 @@ const collection = [
     },
 
     {//Part The Talos Principle
-        img: './imgs/illu-the-talos-principle.jpg',
+        img: './assets/imgs/illu-the-talos-principle.jpg',
         title: 'The Talos Principle',
         year: '2014',
         category: [category[2], category[3]],
@@ -100,7 +100,7 @@ const collection = [
     },
 
     {//Part This War of Mine
-        img: './imgs/illu-this-war-of-mine.jpg',
+        img: './assets/imgs/illu-this-war-of-mine.jpg',
         title: 'This War of Mine',
         year: '2014',
         category: [category[4], category[5]],
@@ -113,7 +113,7 @@ const collection = [
     },
 
     {//Part Batman: Arkham Knight
-        img: './imgs/illu-batman-arkham-knight.jpg',
+        img: './assets/imgs/illu-batman-arkham-knight.jpg',
         title: 'Batman: Arkham Knight',
         year: '2015',
         category: [category[6], category[7]],
@@ -126,7 +126,7 @@ const collection = [
     },
 
     {//Part Plague Inc.: Evolved
-        img: './imgs/illu-plague-inc-evolved.jpg',
+        img: './assets/imgs/illu-plague-inc-evolved.jpg',
         title: 'Plague Inc.: Evolved',
         year: '2016',
         category: [category[8], category[9]],
@@ -139,7 +139,7 @@ const collection = [
     },
 
     {//Part Cat Quest
-        img: './imgs/illu-cat-quest.jpg',
+        img: './assets/imgs/illu-cat-quest.jpg',
         title: 'Cat Quest',
         year: '2017',
         category: [category[6], category[10]],
@@ -152,7 +152,7 @@ const collection = [
     },
 
     {//Part The First Tree
-        img: './imgs/illu-the-first-tree.jpg',
+        img: './assets/imgs/illu-the-first-tree.jpg',
         title: 'The First Tree',
         year: '2017',
         category:  [category[11], category[12]],
@@ -165,7 +165,7 @@ const collection = [
     },
 
     {//Part Monster: Hunter World
-        img: './imgs/illu-monster-hunter-world.jpeg',
+        img: './assets/imgs/illu-monster-hunter-world.jpeg',
         title: 'Monster: Hunter World',
         year: '2018',
         category:  [category[6], category[10]],
@@ -178,7 +178,7 @@ const collection = [
     },
 
     {//Part Spiritfarer
-        img: './imgs/illu-spiritfarer.jpg',
+        img: './assets/imgs/illu-spiritfarer.jpg',
         title: 'Spiritfarer',
         year: '2020',
         category:  [category[4], category[7]],
@@ -191,7 +191,7 @@ const collection = [
     },
 
     {//Part Phasmophobia
-        img: './imgs/illu-phasmophobia.jpg',
+        img: './assets/imgs/illu-phasmophobia.jpg',
         title: 'Phasmophobia',
         year: '2020',
         category:  [category[0], category[13]],
